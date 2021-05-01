@@ -1,8 +1,6 @@
 html {
   box-sizing: border-box;
-  /* background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
-  background-size: cover; */
-  background: rgb(12, 12, 12);
+  background: #fff3e0;
 }
 
 *,
@@ -22,12 +20,11 @@ body {
 }
 
 .items {
-  height: 800px;
+  height: 100vh;
   padding: 100px;
   width: 100%;
   border: 1px solid white;
   overflow-x: scroll;
-  overflow-y: hidden;
   white-space: nowrap;
   user-select: none;
   cursor: pointer;
@@ -49,7 +46,7 @@ body {
 
 .item {
   width: 200px;
-  height: calc(100% - 40px);
+  height: 425px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -59,33 +56,33 @@ body {
   box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-/* 1 is the offset value - starting value */
+/* Every ninth item, with 1 as the offset value - that is, the number it will start at */
 .item:nth-child(9n + 1) {
-  background: dodgerblue;
+  background: #ffebee;
 }
 .item:nth-child(9n + 2) {
-  background: goldenrod;
+  background: #f8bbd0;
 }
 .item:nth-child(9n + 3) {
-  background: paleturquoise;
+  background: #ce93d8;
 }
 .item:nth-child(9n + 4) {
-  background: gold;
+  background: #f06292;
 }
 .item:nth-child(9n + 5) {
-  background: cadetblue;
+  background: #ef5350;
 }
 .item:nth-child(9n + 6) {
-  background: tomato;
+  background: #e91e63;
 }
 .item:nth-child(9n + 7) {
-  background: lightcoral;
+  background: #8e24aa;
 }
 .item:nth-child(9n + 8) {
-  background: darkslateblue;
+  background: #c2185b;
 }
 .item:nth-child(9n + 9) {
-  background: rebeccapurple;
+  background: #c62828;
 }
 
 .item:nth-child(even) {
