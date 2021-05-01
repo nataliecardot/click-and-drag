@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
-  background-size: cover;
+  /* background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
+  background-size: cover; */
+  background: rgb(12, 12, 12);
 }
 
 *,
@@ -58,6 +59,7 @@ body {
   box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
+/* 1 is the offset value - starting value */
 .item:nth-child(9n + 1) {
   background: dodgerblue;
 }
