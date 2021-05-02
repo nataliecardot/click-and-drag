@@ -29,6 +29,7 @@ slider.addEventListener('mousemove', (e) => {
   // x is distance from left side of document where click occurred, minus offset of draggable area and left side, if any
   // x will be lower than startX if dragging to move right (x value being lower means place clicked is further to the right; x-axis values increase to the right)
   // x will be higher than startX if dragging to scroll left - meaning further to left on x-axis (left side is negative); it's scrolled further to the left
+  // walk will be negative if dragged to scroll right; positive if dragged to scroll back to left side
   const walk = (x - startX) * 5;
   console.log({ x, startX, scrollLeft, walk });
   // Setting new scroll location (distance from left) to original scrollLeft (when mouse first pushed) minus amount moved from that spot
