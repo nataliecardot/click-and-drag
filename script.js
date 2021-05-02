@@ -1,4 +1,4 @@
-// Div with white border that surrounds everything
+// Top-level div enclosing draggable area
 const slider = document.querySelector('.items');
 let startX, // Where they first click down
   scrollLeft,

@@ -23,7 +23,6 @@ body {
   height: 100vh;
   padding: 100px;
   width: 100%;
-  border: 1px solid white;
   overflow-x: scroll;
   white-space: nowrap;
   user-select: none;
